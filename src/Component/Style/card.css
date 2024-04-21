@@ -1,0 +1,29 @@
+.card-item{
+    display: flex;
+    gap: 2rem;
+    background-color:#c397fc;
+    color: black;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.3rem;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+
+}
+.duration-manager-box{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.duration-manager-box button{
+    display: flex;
+    background-color: rgba(255, 16, 16, 0.922);
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.duration-manager-box button:nth-child(3){
+    padding: 0;
+    font-size: 1.3rem;
+    background-color: transparent;
+    border: 0;
+}
